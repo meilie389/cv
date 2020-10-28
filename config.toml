@@ -6,7 +6,7 @@ LanguageCode = "fr-fr"
 languageName = "Fr"
 DefaultContentLanguage = "fr"
 contentDir = "cv-online/data"
-home = "Accueil"
+home = "HOME"
 copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
 
 ############################# Plugins ##############################
