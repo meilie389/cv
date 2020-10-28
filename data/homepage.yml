@@ -1,0 +1,192 @@
+########################## hero area ##########################
+hero:
+  title : "Émilie Bossart"
+
+  # animated text loop
+  occupations:
+    - "Développement Web"
+    - "Développement Mobile"
+    - "Design Graphique"
+
+  # slider background image loop
+  slider_image:
+    - "images/slider/slider-3.jpg"
+    - "images/slider/slider-2.jpg"
+
+  # button
+  button:
+    enable : true
+    label : "ME CONTACTER"
+    link : "#contact"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/backgrounds/full-nav-bg.jpg"
+  first_name : "Émilie"
+  last_name : "Bossart"
+  name: "Meilie389"
+  
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/portrait.jpg"
+  title : "PROFIL"
+  content : "Étudiante en Licence Professionnelle MIAW et actuellement en alternance en études et développement informatique Full Stack. Initialement en parcours Mathématiques, je me suis réorientée vers l'informatique et plus particulièrement le développement. J'aime écrire du code et trouver des solutions simples peut importe la difficulté du projet. Restez connectés..."
+  # button
+  button:
+    enable : true
+    label : "TÉLÉCHARGER MON CV"
+    link : "https://drive.google.com/uc?export=download&id=1Dowsop2eddJDNz23W7IRWsaLyGEciLHw" # you can put your cv in static folder and give the path here.
+
+########################### Experience ##############################
+experience:
+  enable : true
+  title : "EXPÉRIENCES"
+  experience_list:
+    # experience item loop
+    - name : "Études et développement informatique"
+      company : "OPT-NC"
+      duration : "(fev.2020 - dec.2020)"
+      content : "Développement d'API REST (Java, Spring Boot), développement d'application Mobile (Dart/Flutter), développement d'application Web (Hugo, Reveal.JS), designs graphiques (création de mascotte et logos)"
+      
+    # experience item loop
+    - name : "Étudiant stagiaire"
+      company : "Université de la Nouvelle-Calédonie - L2K Innovation"
+      duration : "(nov.2018 - dec.2018)"
+      content : "Platine Arduino et mesures environnementales en milieu lagonaire – Développement et intégration d’une sonde de turbidité."
+
+########################### Formation ##############################
+formation:
+  enable : true
+  title : "FORMATIONS"
+  formation_list:
+    # experience item loop
+    - name : "Université de la Nouvelle-Calédonie"
+      diploma : "Licence professionnelle, Métiers de l'informatique : applications web"
+      duration : "(fev.2020 - dec.2020)"
+      
+    # experience item loop
+    - name : "Lycée du Mont-dore"
+      diploma : "BTS, Systèmes numériques option Informatique et réseaux (SN-IR)"
+      duration : "(fev.2018 - dec.2019)"
+
+    # experience item loop
+    - name : "Université de la Nouvelle-Calédonie"
+      diploma : "Licence, Mathématiques et informatique"
+      duration : "(fev.2013 - nov.2017)"
+      
+    # experience item loop
+    - name : "Lycée du Grand Nouméa"
+      diploma : "Baccalauréat, S spécialité mathématiques"
+      duration : "(fev.2010 - dec.2012)"
+
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : "COMPÉTENCES"
+  skill_list:
+    # skill item loop
+    - name : "Développement Web"
+      parcentage : "62%"
+      
+    # skill item loop
+    - name : "Développement Mobile"
+      parcentage : "70%"
+      
+    # skill item loop
+    - name : "Développement API"
+      parcentage : "74%"
+      
+    # skill item loop
+    - name : "Design Graphique"
+      parcentage : "67%"
+
+############################## call to action #########################
+call_to_action:
+  enable : true
+  bg_image : "images/backgrounds/need-service.jpg"
+  button:
+    enable : true
+    label : "ME CONTACTER!"
+    link : "#contact"
+
+
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "PORTFOLIO"
+  portfolio_list:
+    # portfolio item loop
+    - name : "Colis NC <br> MASCOTTE"
+      image : "images/portfolio/item1.jpg"
+      date : "Fev 2020"
+      category : "Design"
+      
+    # portfolio item loop
+    - name : "Temps Attente Agences <br> API"
+      image : "images/portfolio/item2.jpg"
+      date : "Mar 2020"
+      category : "Api"
+      
+    # portfolio item loop
+    - name : "Offres emploi NC <br> LOGO"
+      image : "images/portfolio/item3.jpg"
+      date : "Mar 2018"
+      category : "Design"
+      
+    # portfolio item loop
+    - name : "Ma carte Conso+ <br> LOGO"
+      image : "images/portfolio/item4.jpg"
+      date : "Avr 2020"
+      category : "Design"
+      
+    # portfolio item loop
+    - name : "Ma carte Conso+ <br> MOBILE APP"
+      image : "images/portfolio/item5.jpg"
+      date : "Juin 2020"
+      category : "Mobile App"
+
+    # portfolio item loop
+    - name : "Livre d'or GLIA <br> SLIDESHOW"
+      image : "images/portfolio/item6.jpg"
+      date : "Mai 2020"
+      category : "Web App"
+      
+    # portfolio item loop
+    - name : "Kalolo API <br> API"
+      image : "images/portfolio/item7.jpg"
+      date : "Juil 2020"
+      category : "Api"
+
+######################### funfacts #############################3
+funfacts:
+  enable : true
+  funfacts_list:
+    # funfacts item loop
+    - name : "MAINS AU TRAVAIL"
+      image : "images/icons/works.png"
+      count : "100"
+      
+    # funfacts item loop
+    - name : "PROJETS TERMINÉS"
+      image : "images/icons/project.png"
+      count : "3"
+      
+    # funfacts item loop
+    - name : "TASSES DE CAFÉ"
+      image : "images/icons/coffee.png"
+      count : "350"
+
+
+############################## contact ###########################
+contact:
+  enable : true
+  title : "ME CONTACTER!"
+  name : "Nom"
+  email : "Email"
+  msg : "Message"
+  submit : "Envoyer"
