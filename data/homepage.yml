@@ -39,7 +39,7 @@ about:
   button:
     enable : true
     label : "TÉLÉCHARGER MON CV"
-    link : "https://drive.google.com/uc?export=download&id=1HPLg9FbOPt_7250xsJ05Wf1bvmJmQEF5" # you can put your cv in static folder and give the path here.
+    link : "https://drive.google.com/uc?export=download&id=1n9Ss_XeAyHzfUuGfUzM2Yr1ks53vE38Q" # you can put your cv in static folder and give the path here.
 
 ########################### Experience ##############################
 experience:
