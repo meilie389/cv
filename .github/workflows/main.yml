@@ -9,6 +9,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: log untrusted output
+      run: |
+        echo "::stop-commands::`echo -n ${{ github.token }} | sha256sum | head -c 64`"
+        echo "untrusted output"
+        echo "::`echo -n ${{ github.token }} | sha256sum | head -c 64`::"
+    
     - uses: actions/checkout@v2
       with: 
         submodules: true
@@ -20,7 +26,7 @@ jobs:
 
     - name: Build
       run: hugo
-    
+
     - name: Deploy
       uses: peaceiris/actions-github-pages@v3.1.12
       with:
